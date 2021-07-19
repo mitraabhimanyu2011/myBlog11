@@ -16,7 +16,7 @@ function send() {
 question_turn = "player1";
 answer_turn = "player2";
 
-funtion check()
+function check()
 {
     get_answer = document.getElementById("input_check_box").value;
     if(get_answer == actual_answer)
